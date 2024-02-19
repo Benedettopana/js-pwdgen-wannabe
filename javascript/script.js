@@ -8,3 +8,11 @@ const passwordGen = myName + myLastname + myFavColor + '24';
 
 console.log(myName, myLastname, myFavColor);
 console.log(passwordGen);
+
+document.getElementById('result').innerHTML =
+`
+<p>
+La tua password(insicurissima) personalizzata é stata generata! <br><br>
+<strong>${passwordGen}</strong>
+</p>
+`
